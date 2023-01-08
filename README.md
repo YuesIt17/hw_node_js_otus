@@ -1,1 +1,7 @@
-# hw_node_js_otus
+# Homework node.js
+
+## You need run command for start project:
+
+```
+npm start
+```
