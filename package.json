@@ -5,7 +5,7 @@
   "main": "treeNode.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node treeNode.js"
+    "start": "node index.js"
   },
   "author": "Evgeny",
   "license": "ISC"
