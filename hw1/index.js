@@ -1,3 +1,3 @@
-const {runDrawTreeNode} = require('./treeNode');
+import {runDrawTreeNode} from './treeNode.js';
 
-module.exports = {runDrawTreeNode};
+runDrawTreeNode();
