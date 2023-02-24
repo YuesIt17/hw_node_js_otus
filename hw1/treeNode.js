@@ -1,5 +1,5 @@
-const {dataMock} = require('./dataMock');
-const {getLastRootChildIndex} = require('../share/utils');
+import {dataMock} from './dataMock.js';
+import {getLastRootChildIndex} from '../share/utils.js';
 
 const getTreeNodes = (data, hasParent, tabLevel, treeNodes) => {
   const nodeName = data?.name;
@@ -24,7 +24,6 @@ const getTreeNodes = (data, hasParent, tabLevel, treeNodes) => {
 }
 
 
-
 const drawTreeNodes = (treeNodes = []) => {
   if(treeNodes?.length === 0) return;
 
@@ -45,9 +44,7 @@ const drawTreeNodes = (treeNodes = []) => {
   })
 }
 
-const runDrawTreeNode = () => {
+export const runDrawTreeNode = () => {
   const treeNodes = getTreeNodes(dataMock, false, 0, []);
   drawTreeNodes(treeNodes);  
 }
-
-module.exports = {runDrawTreeNode};

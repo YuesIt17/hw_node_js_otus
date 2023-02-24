@@ -1,4 +1,4 @@
-const dataMock = {
+export const dataMock = {
   name: 1,
   items: [
     {
@@ -38,5 +38,3 @@ const dataMock = {
     },
   ],
 };
-
-module.exports = {dataMock};

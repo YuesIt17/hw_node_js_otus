@@ -3,5 +3,6 @@
 ## You need run command for start project:
 
 ```
-npm start
+yarn start-hw1
+
 ```
